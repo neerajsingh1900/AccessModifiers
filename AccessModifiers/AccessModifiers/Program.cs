@@ -14,6 +14,7 @@ class Modifier: LinkingFile.Class1
 public class Debugger:LinkingFile.Class1   {
     public static void Display(){
         Console.WriteLine("Changes by Neeraj");
+    }
 public class Bank{
     public int TotalBalance{get;set;}
     public int Interest{get;set;}
