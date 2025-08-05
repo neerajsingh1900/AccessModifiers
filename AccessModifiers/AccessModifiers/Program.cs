@@ -10,6 +10,14 @@ class Modifier: LinkingFile.Class1
         Console.WriteLine(g);
     }
 }
+
+public class Bank{
+    public int TotalBalance{get;set;}
+    public int Interest{get;set;}
+    public int Calculate(){
+        return TotalBalance + TotalBalance*Interest;
+    }
+}
 public class Program
 {
     public static void Main(string[] args)
