@@ -10,6 +10,12 @@ class Modifier: LinkingFile.Class1
         Console.WriteLine(g);
     }
 }
+
+public class Debugger:LinkingFile.Class1   {
+    public static void Display(){
+        Console.WriteLine("Changes by Neeraj");
+    }
+}
 public class Program
 {
     public static void Main(string[] args)
