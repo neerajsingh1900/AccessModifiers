@@ -14,6 +14,7 @@ class Modifier: LinkingFile.Class1
 public class Bank{
     public int TotalBalance{get;set;}
     public int Interest{get;set;}
+    public int b;
     public int Calculate(){
         return TotalBalance + TotalBalance*Interest;
     }
